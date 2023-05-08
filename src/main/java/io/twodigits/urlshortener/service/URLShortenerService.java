@@ -55,5 +55,9 @@ public interface URLShortenerService {
      */
     void deleteURL(String user, String id);
 
+    /**
+     * Get visit statistics of a specific shortURL with id.
+     * @param id
+     */
     List<Visit> getStatistics(String id);
 }
